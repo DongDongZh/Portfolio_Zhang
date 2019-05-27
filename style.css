@@ -1,0 +1,94 @@
+.nav-link{
+  color: #BDBDBD; 
+}
+
+.nav-link:hover{
+  color: white; 
+}
+
+.nav-link:active{
+  color: white; 
+}
+
+.header{
+  position: fixed;
+}
+
+.home{
+  background: #00bcbd; 
+  height:40em; 
+  color:white; 
+}
+
+.nav{
+  position: sticky;
+}
+
+.brand{
+  margin-top: 10em; 
+}
+
+.brand-name{
+  text-align: center; 
+}
+
+.btn_download{
+  color:white; 
+  background: #474d5d; 
+  padding:1em; 
+}
+
+.portfolio{
+  background:#F2F2F2; 
+  height:55em; 
+  /* color: #FA5858;  */
+}
+
+.cards{
+  margin-top: 5em; 
+}
+
+.card{
+  display:inline-block; 
+  margin-right:2em; 
+  margin-bottom:2em; 
+}
+
+.portfolio_name{
+  text-align: center; 
+}
+
+.contact{
+  background:#474d5d; 
+  height: 28em; 
+  color: white; 
+}
+
+.contact-info{
+  margin-top:5em; 
+}
+
+.address-item{
+  padding-left:1em; 
+}
+
+#message{
+  display: inline-block; 
+}
+
+.msg-item{
+  margin-bottom: 1em; 
+  margin-right: 1em; 
+  display: inline-block; 
+}
+
+.submit{
+  background: #ff675f; 
+  color: white; 
+  padding:0.5em 1em 0.5em 1em; 
+  font-weight: bold; 
+  font-style: italic; 
+}
+
+
+
