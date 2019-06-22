@@ -39,8 +39,8 @@
 }
 
 .portfolio{
-  background:#F2F2F2; 
-  height:55em; 
+ background: hsl(194, 72%, 52%);
+  height:110em; 
   /* color: #FA5858;  */
 }
 
@@ -90,5 +90,63 @@
   font-style: italic; 
 }
 
+.card-img-top{
+  height: 10em; 
+}
 
+.extra-link{
+  text-align: center; 
+}
 
+.card-icon{
+  color: #474d5d;  
+  font-size: 22px; 
+}
+
+.card-text{
+  overflow-y:scroll;
+  overflow-x: hidden;
+  height: 6em; 
+}
+
+.card-text::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.card-text::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.card-text::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.card-text::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.skills{
+  background:#E6E6E6; 
+  color: #ff675f; 
+  height:35em; 
+  padding:5em; 
+}
+
+.skills-title{
+  text-align: center; 
+}
+
+.skill-block{
+  display: inline-block;
+}
+
+.front{
+  float:left; 
+}
+
+.back{
+  float:right; 
+}
