@@ -21,22 +21,28 @@
   <header>
     <div class="row">
       <div class="col-12">
-        <nav class="nav navbar navbar-dark bg-dark">
-          <a class="nav-link" href="#">ABOUT</a>
-          <a class="nav-link" href="#">PORTFOLIO</a>
-          <a class="nav-link" href="#">CONTACT</a>
-          <div class="col-3"></div>
-          <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
-          <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
-          <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
-          <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+        <nav class="nav navbar navbar-dark position-fixed">
+          <a class="nav-link nav-block" href="#about">ABOUT</a>
+          <a class="nav-link nav-block" href="#skills">SKILLS</a>
+          <a class="nav-link nav-block" href="#portfolio">PORTFOLIO</a>
+          <a class="nav-link nav-block" href="#contact">CONTACT</a>
+
+          <div class="col-2"></div>
+          <a class="nav-link nav-icon" href="https://www.linkedin.com/in/dongdong-zhang/" target="blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a class="nav-link nav-icon" href="https://github.com/DZhangCoder" target="blank"><i
+              class="fab fa-github"></i></a>
+          <a class="nav-link nav-icon" href="https://www.facebook.com/DongdongZhang666" target="blank"><i
+              class="fab fa-facebook-square"></i></a>
+          <a class="nav-link nav-icon" href="https://www.instagram.com/dongdongzh21/" target="blank"><i
+              class="fab fa-instagram"></i></a>
         </nav>
       </div>
     </div>
   </header>
 
   <!-- Home Page -->
-  <div class="home">
+  <div class="home" id="about">
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8 brand">
@@ -47,12 +53,14 @@
           problem-solving, and working with people from various cultural backgrounds.
         </p>
         <p>
-          Feel free to take a look at my latest projects on my portfolio page. Check out my
-          repositories at my Github page. Enquires at
-          ddzhang2018@gmail.com.
+          Feel free to take a look at my latest projects on my <a href="#portfolio" class="about_link">portfolio
+            page</a>. Check out my
+          repositories at my <a href="https://github.com/DZhangCoder" target="blank" class="about_link">Github page</a>.
+          Enquires at
+          <a href="mailto:ddzhang2018@gmail.com?subject=General%20Inquiry" class="about_link">ddzhang2018@gmail.com.</a>
         </p>
         <br>
-        <a href="./assets/Resume_Zhang.pdf" class="btn_download" download="Resume_Zhang" target="blank">Download
+        <a href="./assets/Resume_Zhang.pdf" class="btn_download resume" download="Resume_Zhang" target="blank">Download
           Printable Resume</a>
       </div>
       <div class="col-2"></div>
@@ -60,23 +68,42 @@
   </div>
 
   <!-- Skills Page -->
-  <div class="skills">
+  <div id="skills">
     <h4 class="skills-title">TECHNICAL SKILLS</h4>
     <div class="container">
-      <div class="front skill-block">
-        <p>Front-end Skills</p>
+      <div class="front skill-block col-6">
+        <p class="text_center">FRONT END</p>
+        <img src="./assets/Images/skills_img/html_css_js.png" class="skill-img">
+        <img src="./assets/Images/skills_img/jquery_logo.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/responsive.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/bootstrap.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/handlebars.png" class="skill-img">
+        <img src="./assets/Images/skills_img/reactjs.jpg" class="skill-img">
       </div>
-      <div class="back skill-block">
-        <p>Back-end Skills</p>
+      <div class="back skill-block col-6">
+        <p class="text_center">BACK END</p>
+        <img src="./assets/Images/skills_img/java.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/mysql-logo.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/mongodb.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/node.png" class="skill-img">
+        <img src="./assets/Images/skills_img/express-js.jpeg" class="skill-img">
+        <img src="./assets/Images/skills_img/SQA.png" class="skill-img">
       </div>
     </div>
   </div>
 
   <!-- Portfolio Page -->
-  <div class="portfolio">
-    <div class="row">
+  <div id="portfolio">
+    <h4 class="portfolio-title">PORTFOLIO</h4>
+    <div class="row portfolio-buttons">
+      <div class = "col-4"></div>
+      <div class = "btn-port" id = "#btn-all">ALL</div>
+      <div class = "btn-port" id = "#btn-front">FRONT-END</div>
+      <div class = "btn-port" id = "#btn-back">BACK-END</div>
+    </div>
+    <div class="row portfolio-cards">
       <div class="col-1"></div>
-      <div class="col-10 cards">
+      <div class="col-11 cards">
         <!-- <h4 class="portfolio_name">PORTFOLIO</h4><br> -->
         <!-- Project 1 -->
         <div class="card" style="width: 18rem;">
@@ -268,7 +295,7 @@
   </div>
 
   <!-- Contact Page -->
-  <div class="contact">
+  <div id="contact">
     <div class="row">
       <div class="col-2"></div>
       <div class="col-3 contact-info">
@@ -319,6 +346,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  
+  <!-- link to jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- link to my js file -->
+  <script src = "./portfolio-page.js"></script>
 </body>
 
 </html>
