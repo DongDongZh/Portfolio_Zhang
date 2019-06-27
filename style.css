@@ -52,7 +52,7 @@
 }
 
 .cards{
-  margin-top: 2em; 
+  margin-top: 3em; 
 }
 
 .card{
@@ -67,12 +67,12 @@
 
 #contact{
   background:#474d5d; 
-  height: 28em; 
+  height: 35em; 
   color: white; 
 }
 
 .contact-info{
-  margin-top:5em; 
+  margin-top:8em; 
 }
 
 .address-item{
@@ -188,6 +188,7 @@
 
 .about_link:hover{
   color:#474d5d; 
+  text-decoration: none; 
 }
 
 .resume:hover{
@@ -217,9 +218,35 @@
   font-size: 14px; 
   margin-right:1em;  
   margin-top:3em; 
+  cursor: pointer;
 }
 
 .btn-port:hover{
   color:#474d5d; 
   border-color:#474d5d; 
+}
+
+.btn-active{
+  background: #474d5d;
+}
+
+.btn-active:hover{
+  color:white; 
+  border-color:white; 
+}
+
+.email{
+  color:white; 
+}
+
+.email:hover{
+  color:white; 
+  text-decoration: none; 
+}
+
+footer{
+  background:#262b37; 
+  color:#c3c8d6; 
+  text-align: center; 
+  padding:1rem; 
 }
