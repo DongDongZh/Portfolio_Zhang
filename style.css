@@ -1,5 +1,50 @@
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px){
+  .brand{
+    margin-top: 9em !important; 
+  };
+  .home{
+    height: 35em !important;
+  };
+  .skill-img{
+    width:10px !important;
+    height:10px !important;
+  }
+  #skills{
+    height: 38em !important;
+  }
+} */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px){
+  .home{
+    height:830px !important; 
+  };
+  .skills-css{
+    background: #E6E6E6;
+    color: #474d5d;
+    height: 1730px;
+    padding-top: 150px;
+  };
+  #portfolio{
+    height:5000px; 
+  }
+};
+
+
+
+
 .nav-link{
   color: #c3c8d6; 
+}
+
+.nav{
+  padding-top:5px; 
+  padding-bottom:5px; 
+}
+
+.nav-link{
+  padding:0em !important;
 }
 
 .nav-link:hover{
@@ -7,9 +52,14 @@
 }
 
 .nav-block:hover{
-  border:#1b1f29 1px solid; 
   background: #1b1f29; 
 }
+
+.nav-active{
+  background: #1b1f29; 
+  color:white; 
+}
+
 .nav-link:active{
   color: white; 
 }
@@ -20,7 +70,7 @@
 
 .home{
   background: #00bcbd; 
-  height:40em; 
+  height:585px; 
   color:white; 
 }
 
@@ -31,7 +81,7 @@
 }
 
 .brand{
-  margin-top: 10em; 
+  margin-top: 170px; 
 }
 
 .brand-name{
@@ -46,8 +96,7 @@
 
 #portfolio{
  background: hsl(194, 72%, 52%);
-  height:120em; 
-  padding-top:5em; 
+  height:2100px; 
   /* color: #FA5858;  */
 }
 
@@ -140,11 +189,11 @@
   background: #555; 
 }
 
-#skills{
+.skills-css{
   background:#E6E6E6; 
   color: #474d5d; 
-  height:50em; 
-  padding-top:10em; 
+  height:730px; 
+  padding-top:150px; 
 }
 
 .skills-title{
@@ -164,8 +213,8 @@
 }
 
 .skill-img{
-  width: 10em; 
-  height:10em; 
+  width: 120px; 
+  height:120px; 
   margin-bottom: 5px; 
 }
 
@@ -197,17 +246,15 @@
 }
 
 .portfolio-title{
+  padding-top:150px;
   text-align: center; 
   color:white; 
 }
 
-.portfolio-cards{
-  margin-left:3em; 
-}
-
 .portfolio-buttons{
-  margin-left:3em; 
   text-align:center; 
+  width:115%; 
+  margin-right:15px; 
 }
 
 .btn-port{
@@ -248,5 +295,36 @@ footer{
   background:#262b37; 
   color:#c3c8d6; 
   text-align: center; 
-  padding:1rem; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* media query */
+.nav-link{
+  margin:auto; 
+}
+
+.nav-block{
+  display:inline
+}
+
+.nav-icon{
+  display:inline
+}
+
+.nav-general{
+  display: inline; 
+}
+
+.col-12{
+  text-align:center; 
+  width:100%; 
+}
+
+.fab{
+  display: inline;  
+}
+
+.nav-link{
+  padding: 0.8rem 1rem; 
 }

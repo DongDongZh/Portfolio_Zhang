@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x:hidden">
 
 <head>
   <meta charset="UTF-8">
@@ -19,30 +19,29 @@
 <body>
   <!-- Header -->
   <header>
-    <div class="row">
-      <div class="col-12">
-        <nav class="nav navbar navbar-dark position-fixed">
-          <a class="nav-link nav-block" href="#about">ABOUT</a>
-          <a class="nav-link nav-block" href="#skills">SKILLS</a>
-          <a class="nav-link nav-block" href="#portfolio">PORTFOLIO</a>
-          <a class="nav-link nav-block" href="#contact">CONTACT</a>
-
-          <div class="col-2"></div>
-          <a class="nav-link nav-icon" href="https://www.linkedin.com/in/dongdong-zhang/" target="blank"><i
-              class="fab fa-linkedin"></i></a>
-          <a class="nav-link nav-icon" href="https://github.com/DZhangCoder?tab=repositories" target="blank"><i
-              class="fab fa-github"></i></a>
-          <a class="nav-link nav-icon" href="https://www.facebook.com/DongdongZhang666" target="blank"><i
-              class="fab fa-facebook-square"></i></a>
-          <a class="nav-link nav-icon" href="https://www.instagram.com/dongdongzh21/" target="blank"><i
-              class="fab fa-instagram"></i></a>
-        </nav>
+    <nav class="nav navbar navbar-dark position-fixed">
+      <div class="row col-lg-5 col-sm-12" style="width:100%">
+        <a class="nav-link nav-block" href="#about" id="nav-about">ABOUT</a>
+        <a class="nav-link nav-block" href="#skills" id="nav-skills">SKILLS</a>
+        <a class="nav-link nav-block" href="#portfolio" id="nav-portfolio">PORTFOLIO</a>
+        <a class="nav-link nav-block" href="#contact" id="nav-contact">CONTACT</a>
       </div>
-    </div>
+      <div class="row col-sm-12 col-lg-3">
+        <a class="nav-link nav-icon" href="https://www.linkedin.com/in/dongdong-zhang/" target="blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a class="nav-link nav-icon" href="https://github.com/DZhangCoder?tab=repositories" target="blank"><i
+            class="fab fa-github"></i></a>
+        <a class="nav-link nav-icon" href="https://www.facebook.com/DongdongZhang666" target="blank"><i
+            class="fab fa-facebook-square"></i></a>
+        <a class="nav-link nav-icon" href="https://www.instagram.com/dongdongzh21/" target="blank"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+      </div>
+    </nav>
   </header>
 
   <!-- Home Page -->
-  <div class="home" id="about">
+  <div class="home main-content" id="about">
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8 brand">
@@ -69,28 +68,27 @@
   </div>
 
   <!-- Skills Page -->
-  <div id="skills">
+  <div class="skills-css" id="skills">
     <h4 class="skills-title">TECHNICAL SKILLS</h4>
-    <div class="container">
-      <div class="front skill-block col-6">
-        <p class="text_center">FRONT END</p>
-        <img src="./assets/Images/skills_img/html_css_js.png" class="skill-img">
-        <img src="./assets/Images/skills_img/jquery_logo.jpg" class="skill-img">
-        <img src="./assets/Images/skills_img/responsive.jpg" class="skill-img">
-        <img src="./assets/Images/skills_img/bootstrap.jpg" class="skill-img">
-        <img src="./assets/Images/skills_img/handlebars.png" class="skill-img">
-        <img src="./assets/Images/skills_img/reactjs.jpg" class="skill-img">
-      </div>
-      <div class="back skill-block col-6">
-        <p class="text_center">BACK END</p>
-        <img src="./assets/Images/skills_img/java.jpg" class="skill-img">
-        <img src="./assets/Images/skills_img/mysql-logo.jpg" class="skill-img">
-        <img src="./assets/Images/skills_img/mongodb.jpg" class="skill-img">
-        <img src="./assets/Images/skills_img/node.png" class="skill-img">
-        <img src="./assets/Images/skills_img/express-js.jpeg" class="skill-img">
-        <img src="./assets/Images/skills_img/SQA.png" class="skill-img">
-      </div>
+    <div class="front skill-block col-12">
+      <p class="text_center">FRONT END</p>
+      <img src="./assets/Images/skills_img/html_css_js.png" class="skill-img">
+      <img src="./assets/Images/skills_img/jquery_logo.jpg" class="skill-img">
+      <img src="./assets/Images/skills_img/responsive.jpg" class="skill-img">
+      <img src="./assets/Images/skills_img/bootstrap.jpg" class="skill-img">
+      <img src="./assets/Images/skills_img/handlebars.png" class="skill-img">
+      <img src="./assets/Images/skills_img/reactjs.jpg" class="skill-img">
     </div>
+    <div class="back skill-block col-12">
+      <p class="text_center">BACK END</p>
+      <img src="./assets/Images/skills_img/java.jpg" class="skill-img">
+      <img src="./assets/Images/skills_img/mysql-logo.jpg" class="skill-img">
+      <img src="./assets/Images/skills_img/mongodb.jpg" class="skill-img">
+      <img src="./assets/Images/skills_img/node.png" class="skill-img">
+      <img src="./assets/Images/skills_img/express-js.jpeg" class="skill-img">
+      <img src="./assets/Images/skills_img/SQA.png" class="skill-img">
+    </div>
+    <div class="row col-12 skill-margin"></div>
   </div>
 
   <!-- Portfolio Page -->
@@ -313,7 +311,8 @@
         </div>
         <div>
           <i class="far fa-envelope"></i>
-          <a href="mailto:ddzhang2018@gmail.com?subject=General%20Inquiry" class = "email address-item">ddzhang2018@gmail.com</a>
+          <a href="mailto:ddzhang2018@gmail.com?subject=General%20Inquiry"
+            class="email address-item">ddzhang2018@gmail.com</a>
         </div>
       </div>
       <div class="col-6 contact-info">
