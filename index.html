@@ -60,8 +60,10 @@
           <a href="mailto:ddzhang2018@gmail.com?subject=General%20Inquiry" class="about_link">ddzhang2018@gmail.com.</a>
         </p>
         <br>
-        <a href="./assets/Resume_Zhang.pdf" class="btn_download resume" download="Resume_Zhang" target="blank">Download
-          Printable Resume</a>
+        <a href="./assets/Resume_Zhang.pdf" class="btn_download resume" download="Resume_Zhang" target="blank">
+          <div class="btn-resume">Download
+            Printable Resume</div>
+        </a>
       </div>
       <div class="col-2"></div>
     </div>
@@ -72,21 +74,25 @@
     <h4 class="skills-title">TECHNICAL SKILLS</h4>
     <div class="front skill-block col-12">
       <p class="text_center">FRONT END</p>
-      <img src="./assets/Images/skills_img/html_css_js.png" class="skill-img">
-      <img src="./assets/Images/skills_img/jquery_logo.jpg" class="skill-img">
-      <img src="./assets/Images/skills_img/responsive.jpg" class="skill-img">
-      <img src="./assets/Images/skills_img/bootstrap.jpg" class="skill-img">
-      <img src="./assets/Images/skills_img/handlebars.png" class="skill-img">
-      <img src="./assets/Images/skills_img/reactjs.jpg" class="skill-img">
+      <div class="row skill-sets">
+        <img src="./assets/Images/skills_img/html_css_js.png" class="skill-img">
+        <img src="./assets/Images/skills_img/jquery_logo.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/responsive.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/bootstrap.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/handlebars.png" class="skill-img">
+        <img src="./assets/Images/skills_img/reactjs.jpg" class="skill-img">
+      </div>
     </div>
     <div class="back skill-block col-12">
       <p class="text_center">BACK END</p>
-      <img src="./assets/Images/skills_img/java.jpg" class="skill-img">
-      <img src="./assets/Images/skills_img/mysql-logo.jpg" class="skill-img">
-      <img src="./assets/Images/skills_img/mongodb.jpg" class="skill-img">
-      <img src="./assets/Images/skills_img/node.png" class="skill-img">
-      <img src="./assets/Images/skills_img/express-js.jpeg" class="skill-img">
-      <img src="./assets/Images/skills_img/SQA.png" class="skill-img">
+      <div class="row skill-sets">
+        <img src="./assets/Images/skills_img/java.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/mysql-logo.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/mongodb.jpg" class="skill-img">
+        <img src="./assets/Images/skills_img/node.png" class="skill-img">
+        <img src="./assets/Images/skills_img/express-js.jpeg" class="skill-img">
+        <img src="./assets/Images/skills_img/SQA.png" class="skill-img">
+      </div>
     </div>
     <div class="row col-12 skill-margin"></div>
   </div>
@@ -95,19 +101,18 @@
   <div id="portfolio">
     <h4 class="portfolio-title">PORTFOLIO</h4>
     <div class="row portfolio-buttons">
-      <div class="col-3"></div>
-      <div class="btn-port btn-active" id="btn-all">ALL</div>
-      <div class="btn-port" id="btn-group">GROUP</div>
-      <div class="btn-port" id="btn-front">FRONT</div>
-      <div class="btn-port" id="btn-back">BACK</div>
-      <div class="btn-port" id="btn-full">FULL</div>
+      <div class="btns">
+        <div class="btn-port btn-active" id="btn-all">ALL</div>
+        <div class="btn-port" id="btn-front">FRONT</div>
+        <div class="btn-port" id="btn-back">BACK</div>
+        <div class="btn-port" id="btn-full">FULL</div>
+      </div>
     </div>
     <div class="row portfolio-cards">
-      <div class="col-1"></div>
-      <div class="col-11 cards">
+      <div class="cards">
         <!-- <h4 class="portfolio_name">PORTFOLIO</h4><br> -->
         <!-- Project 1 -->
-        <div class="card full-stack all group" style="width: 18rem;">
+        <div class="card full-stack all group" style="width: 280px;">
           <img src="./assets/Images/LML.png" class="card-img-top" alt="Let Me Learn">
           <div class="card-body">
             <h5 class="card-title">Let Me Learn</h5>
@@ -127,7 +132,7 @@
           </div>
         </div>
         <!-- Project 2 -->
-        <div class="card all front-end group" style="width: 18rem;">
+        <div class="card all front-end group" style="width: 280px;">
           <img src="./assets/Images/comics.jpg" class="card-img-top" alt="SuperSearch">
           <div class="card-body">
             <h5 class="card-title">SuperSearch</h5>
@@ -143,7 +148,7 @@
           </div>
         </div>
         <!-- Project 3 -->
-        <div class="card all full-stack" style="width: 18rem;">
+        <div class="card all full-stack" style="width: 280px;">
           <img src="./assets/Images/burger.png" class="card-img-top" alt="Burger and Drink">
           <div class="card-body">
             <h5 class="card-title">Eat-Da-Burger (sequelize)</h5>
@@ -161,7 +166,7 @@
           </div>
         </div>
         <!-- Project 4 -->
-        <div class="card all full-stack" style="width: 18rem;">
+        <div class="card all full-stack" style="width: 280px;">
           <img src="./assets/Images/ff.jpg" class="card-img-top" alt="Friend Finder">
           <div class="card-body">
             <h5 class="card-title">Friend Finder</h5>
@@ -177,7 +182,7 @@
           </div>
         </div>
         <!-- Project 5 -->
-        <div class="card all back-end" style="width: 18rem;">
+        <div class="card all back-end" style="width: 280px;">
           <img src="./assets/Images/bamazon.jpg" class="card-img-top" alt="Bamazon">
           <div class="card-body">
             <h5 class="card-title">Bamazon</h5>
@@ -192,7 +197,7 @@
           </div>
         </div>
         <!-- Project 6 -->
-        <div class="card all back-end" style="width: 18rem;">
+        <div class="card all back-end" style="width: 280px;">
           <img src="./assets/Images/liri.jpg" class="card-img-top" alt="liri">
           <div class="card-body">
             <h5 class="card-title">LIRI Node App</h5>
@@ -206,7 +211,7 @@
           </div>
         </div>
         <!-- Project 7 -->
-        <div class="card all front-end" style="width: 18rem;">
+        <div class="card all front-end" style="width: 280px;">
           <img src="./assets/Images/Mlogo.jpg" class="card-img-top" alt="Word Guess Game">
           <div class="card-body">
             <h5 class="card-title">Marvel Word Guess Game</h5>
@@ -222,7 +227,7 @@
           </div>
         </div>
         <!-- Project 8 -->
-        <div class="card all front-end" style="width: 18rem;">
+        <div class="card all front-end" style="width: 280px;">
           <img src="./assets/Images/star-wars.jpg" class="card-img-top" alt="Star Wars RPG Game">
           <div class="card-body">
             <h5 class="card-title">Star Wars RPG Game</h5>
@@ -239,7 +244,7 @@
           </div>
         </div>
         <!-- Project 9 -->
-        <div class="card all front-end" style="width: 18rem;">
+        <div class="card all front-end" style="width: 280px;">
           <img src="./assets/Images/trivia.jpg" class="card-img-top" alt="Trivia Gamee">
           <div class="card-body">
             <h5 class="card-title">Trivia Game</h5>
@@ -258,7 +263,7 @@
           </div>
         </div>
         <!-- Project 10 -->
-        <div class="card all front-end" style="width: 18rem;">
+        <div class="card all front-end" style="width: 280px;">
           <img src="./assets/Images/giftastic.png" class="card-img-top" alt="GifTastic">
           <div class="card-body">
             <h5 class="card-title">GifTastic</h5>
@@ -273,7 +278,7 @@
           </div>
         </div>
         <!-- Project 11 -->
-        <div class="card all full-stack" style="width: 18rem;">
+        <div class="card all full-stack" style="width: 280px;">
           <img src="./assets/Images/train-scheduler.jpg" class="card-img-top" alt="Train Scheduler">
           <div class="card-body">
             <h5 class="card-title">Train Scheduler</h5>
@@ -298,8 +303,7 @@
   <!-- Contact Page -->
   <div id="contact">
     <div class="row">
-      <div class="col-2"></div>
-      <div class="col-3 contact-info">
+      <div class="contact-info">
         <h5>CONTACT DETAILS</h5>
         <div>
           <i class="fas fa-map-marker-alt"></i>
@@ -311,23 +315,9 @@
         </div>
         <div>
           <i class="far fa-envelope"></i>
-          <a href="mailto:ddzhang2018@gmail.com?subject=General%20Inquiry"
-            class="email address-item">ddzhang2018@gmail.com</a>
+          <span class="address-item">ddzhang2018@gmail.com</span>
         </div>
-      </div>
-      <div class="col-6 contact-info">
-        <div class="row">
-          <h5>SHOOT A MESSAGE!</h5>
-        </div>
-        <div class="row">
-          <input name="name" id="name" type="text" placeholder="Your name..." class="msg-item">
-          <input name="email" id="email" type="email" placeholder="Your email..." class="msg-item">
-        </div>
-        <div class="row">
-          <textarea name="comments" id="comments" cols="60" rows="5" placeholder="Your message..."
-            class="msg-item"></textarea>
-        </div>
-        <div class="row">
+        <div class = "send-email">
           <a href="mailto:ddzhang2018@gmail.com?subject=General%20Inquiry" class="submit">Send Message</a>
         </div>
       </div>
